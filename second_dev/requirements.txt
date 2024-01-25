@@ -1,0 +1,4 @@
+langchain
+langchain-oepnai
+streamlit
+faiss-cpu
