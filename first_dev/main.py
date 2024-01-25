@@ -1,6 +1,6 @@
 # 환경변수 불러오기 : git 으로 관리하기 위해 환경변수 감추기를 위해 dotenv 사용
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 from langchain_openai import ChatOpenAI
 # prompt
