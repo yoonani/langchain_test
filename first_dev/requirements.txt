@@ -1,0 +1,2 @@
+langchain - pip install
+langchain-opnai - pip install
