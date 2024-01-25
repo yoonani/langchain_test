@@ -1,2 +1,3 @@
-langchain - pip install
-langchain-opnai - pip install
+langchain
+langchain-oepnai
+streamlit
