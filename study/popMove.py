@@ -16,11 +16,11 @@ output = pdk.Layer(
                 data=myData,
                 get_source_position=["long_origin", "lat_origin"],
                 get_target_position=["long_dest", "lat_dest"],
-                get_source_color=[240, 100, 0, myalpha],
-                get_target_color=[0, 255, 0, myalpha],
+                get_source_color=[240, 100, 0, "myalpha"],
+                get_target_color=[0, 255, 0, "myalpha"],
                 auto_highlight=True,
                 width_scale=0.0001,
-                get_width="n",
+                get_width="myalpha",
                 width_min_pixels=3,
                 width_max_pixels=30,
             )
@@ -31,7 +31,7 @@ st.pydeck_chart(
         initial_view_state={
             "latitude": 36.8323,
             "longitude": 127.8043,
-            "zoom": 9,
+            "zoom": 5,
             "pitch": 50,
         },
         layers=output,
